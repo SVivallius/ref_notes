@@ -160,7 +160,13 @@ function(context, args)
 			],
 			"Clues":[
 				"v__to __'s tavern. bring the stuff",
-				"CLI.public"
+				"CLI.public",
+				"2-fortnite. amnesia. hurry",
+				"sn_w_glock kz75we",
+				"get dat new lock you had you eye on",
+				"i need it back fro my tuition",
+				"under the red full-sun. don't be late",
+				"i need ur help"
 			],
 			"acct_nt_clues": [
 				"Get me the amount of a large withdrawal near 240511.0714", //large withdrawal
