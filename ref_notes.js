@@ -52,7 +52,11 @@ function(context, args)
 				"world_pop",
 			],
 			"Passwords": [
-				"endtheworld"
+				"endtheworld",
+				"knowyourteam",
+				"supercalifragilisticexpialidocious",
+				"thenumberone",
+				"bethebest"
 			],
 			"Employees" :{
 				"Mitch": {
@@ -150,7 +154,9 @@ function(context, args)
 				"open",
 				"nav",
 				"command",
-				"action"
+				"action",
+				"see",
+				"cmd"
 			],
 			"Clues":[
 				"v__to __'s tavern. bring the stuff",
