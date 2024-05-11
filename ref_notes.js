@@ -16,7 +16,6 @@ function(context, args)
 				"etceteraco",
 				"futuretech",
 				"goodfellow",
-				"goodfellow",
 				"halperyon",
 				"hivetech",
 				"kill_9_1",
@@ -36,7 +35,6 @@ function(context, args)
 				"setec_gas",
 				"skimmerite",
 				"sn_w",
-				"soylentbean",
 				"soylentbean",
 				"subject_object",
 				"suborbital_airlines",
@@ -156,7 +154,11 @@ function(context, args)
 				"command",
 				"action",
 				"see",
-				"cmd"
+				"cmd",
+				"entry",
+				"get",
+				"process",
+				"show"
 			],
 			"Clues":[
 				"v__to __'s tavern. bring the stuff",
