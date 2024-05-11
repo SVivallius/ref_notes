@@ -15,8 +15,18 @@ function(context, args) // info: true
 			
 			return (
 				"\n"+ ascii + "\n" +
-				"Welcome to REF_NOTES.\n"+
-				"This script is meant to be pulled into your own script as subscript."
+				"Welcome to REF_NOTES.\n" +
+				"This script is meant to be pulled into your own script as subscript.\n" +
+				"Upon running the script without brackets, it returns a library of many of the components of the game.\n" +
+				"These include, but are not limited to:\n"+
+				"NPC company names\n" +
+				"NPC Usernames\n" +
+				"Navigation commands for usernames\n" +
+				"Project names in NPC companies\n" +
+				"And much more!\n\n"+
+
+				"Open source at:\n"+
+				"https://github.com/SVivallius/ref_notes"
 			)
 		}
 	}
@@ -120,7 +130,9 @@ function(context, args) // info: true
 				"du_boyz",
 				"be_lavar",
 				"king_in_yellow",
-				"poitier_27"
+				"poitier_27",
+				"youngtwokay",
+				"wc_handy"
 			],
 			"Unknowns": [
 				"csrbot",
