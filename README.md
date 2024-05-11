@@ -9,4 +9,6 @@ before merging. This is to ensure the safety of the users that refer to this scr
 If you are using this reference sheet in Hackmud, feel free to send either char_count or GC to
 user "temp095" to fund the expansion of this script and future releases, such as:
 
-*Tier 2 lock breaker (in progress)\n*Tier 2 location scraper (planned)\n*And more to come.
+-Tier 2 lock breaker (in progress)
+-Tier 2 location scraper (planned)
+-And more to come.
