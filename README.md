@@ -1,4 +1,4 @@
-#  WELCOME TO THE REFERENCE JSON PAYLOAD FOR HACKMUD
+#  WELCOME TO THE REFERENCE SHEET FOR HACKMUD
 
 This script is very straight forward.<br />
 It simply returns a json that contains scraped information on the NPC's of the game Hackmud.<br />
