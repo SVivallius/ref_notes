@@ -93,7 +93,8 @@ function(context, args) // info: true
 				"knowyourteam",
 				"supercalifragilisticexpialidocious",
 				"thenumberone",
-				"bethebest"
+				"bethebest",
+				"plantowin"
 			],
 			"Employees" :{
 				"Mitch": {
@@ -183,7 +184,9 @@ function(context, args) // info: true
 				"dev_nul",
 				"e)(ecution0r",
 				"ESCHATOLOGI.EXE",
-				"LUNARLANDER_01.11.bat"
+				"LUNARLANDER_01.11.bat",
+				"dsktp_mngr",
+				"lap.sh"
 			],
 			"Pages": [
 				"userpanel",
@@ -193,7 +196,8 @@ function(context, args) // info: true
 				"p33ps",
 				"__av93zk9b9",
 				"public_profiles",
-				"myaccount"
+				"myaccount",
+				"u_panel"
 			],
 			"Nav-Commands":[
 				"navigation",
@@ -237,7 +241,17 @@ function(context, args) // info: true
 					"unknown",
 					"unidentified"
 				]
-			}
+			},
+			"sn_w_glock": { 
+				"magician":"1K89GC", 
+				"secret":"7GC", 
+				"elite":"1K337GC", 
+				"monolithic":"2K1GC", 
+				"hunter":"3K6GC", 
+				"secure":"443GC", 
+				"beast":"666GC", 
+				"meaning":"42GC", 
+				"special":"38GC" }
 		}
 	)
 }
