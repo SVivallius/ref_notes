@@ -141,7 +141,14 @@ function(context, args) // info: true
 				"king_in_yellow",
 				"poitier_27",
 				"youngtwokay",
-				"wc_handy"
+				"wc_handy",
+				"bobranator",
+				"jack_sparrow",
+				"x_mal",
+				"m_c_fly",
+				"theformalartist",
+				"scook",
+				"i_am_the_eggman"
 			],
 			"Unknowns": [
 				"csrbot",
