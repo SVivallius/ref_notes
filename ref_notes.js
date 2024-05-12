@@ -241,7 +241,17 @@ function(context, args) // info: true
 					"unknown",
 					"unidentified"
 				]
-			}
+			},
+			"sn_w_glock": { 
+				"magician":"1K89GC", 
+				"secret":"7GC", 
+				"elite":"1K337GC", 
+				"monolithic":"2K1GC", 
+				"hunter":"3K6GC", 
+				"secure":"443GC", 
+				"beast":"666GC", 
+				"meaning":"42GC", 
+				"special":"38GC" }
 		}
 	)
 }
