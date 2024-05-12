@@ -2,31 +2,40 @@ function(context, args) // info: true
 {
 	if (args != null){
 		if (args.info != null && args.info === true){
-			let ascii = (
-				"██████╗ ███████╗███████╗███╗   ██╗ ██████╗ ████████╗███████╗███████╗\n"+
-				"██╔══██╗██╔════╝██╔════╝████╗  ██║██╔═══██╗╚══██╔══╝██╔════╝██╔════╝\n"+
-				"██████╔╝█████╗  █████╗  ██╔██╗ ██║██║   ██║   ██║   █████╗  ███████╗\n"+
-				"██╔══██╗██╔══╝  ██╔══╝  ██║╚██╗██║██║   ██║   ██║   ██╔══╝  ╚════██║\n"+
-				"██║  ██║███████╗██║     ██║ ╚████║╚██████╔╝   ██║   ███████╗███████║\n"+
-				"╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═══╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝\n"
-			)
+			let ascii = [
+				"██████╗ ███████╗███████╗███╗   ██╗ ██████╗ ████████╗███████╗███████╗\n",
+				"██╔══██╗██╔════╝██╔════╝████╗  ██║██╔═══██╗╚══██╔══╝██╔════╝██╔════╝\n",
+				"██████╔╝█████╗  █████╗  ██╔██╗ ██║██║   ██║   ██║   █████╗  ███████╗\n",
+				"██╔══██╗██╔══╝  ██╔══╝  ██║╚██╗██║██║   ██║   ██║   ██╔══╝  ╚════██║\n",
+				"██║  ██║███████╗██║     ██║ ╚████║╚██████╔╝   ██║   ███████╗███████║\n",
+				"╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═══╝ ╚═════╝    ╚═╝   ╚══════╝╚══════╝"
+			]
 			let c = ["A","Q","S","R","r","o"]
-			let ascii_ary = ascii.split('\n')
+			for (var i = 0; i < ascii.length; i++){
+				ascii[i] = ascii[i]
+					.replace(/█+/gi, m => "`"+c[i]+m+"`")
+					.replace(/[╔╚╝╗═║]+/gi, m => "`o"+m+"`")
+			}
 			
+			let ascii_s = ""
+			for (var i = 0; i < ascii.length; i++){
+				ascii_s += ascii[i]
+			}
+
 			return (
-				"\n"+ ascii + "\n" +
-				"Welcome to REF_NOTES.\n" +
+				"\n"+ ascii_s + "\n" +
+				"`VWelcome to REF_NOTES.`\n" +
 				"This script is meant to be pulled into your own script as subscript.\n" +
 				"Upon running the script without brackets, it returns a library of many of the components of the game.\n" +
-				"These include, but are not limited to:\n"+
-				"NPC company names\n" +
-				"NPC Usernames\n" +
-				"Navigation commands for usernames\n" +
-				"Project names in NPC companies\n" +
-				"And much more!\n\n"+
+				"These include, but are not limited to:\n\n"+
+				"`A* NPC company names`\n" +
+				"`A* NPC Usernames`\n" +
+				"`A* Navigation commands for usernames`\n" +
+				"`A* Project names in NPC companies`\n" +
+				"`A* And much more!`\n\n" +
 
-				"Open source at:\n"+
-				"https://github.com/SVivallius/ref_notes"
+				"`NOpen source at:`\n" +
+				"github.com/SVivallius/ref_notes"
 			)
 		}
 	}
