@@ -86,7 +86,7 @@ function(context, args) // info: true
 				"weathernet",
 				"welsh_measles_info",
 				"weyland",
-				"world_pop",
+				"world_pop"
 			],
 			"Passwords": [
 				"endtheworld",
