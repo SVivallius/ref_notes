@@ -15,6 +15,7 @@ The scripts purpose is to be implemented as a subscript into player scripts to u
 ## Contributors:
 - [SVivallius](https://github.com/SVivallius) (owner)
 - [Berndy](https://github.com/Berndy)
+- [DarkwoodDragon](https://github.com/IanDierckx)
 <hr />
 
 > [!NOTE]
