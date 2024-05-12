@@ -146,7 +146,6 @@ function(context, args) // info: true
 				"jack_sparrow",
 				"x_mal",
 				"m_c_fly",
-				"d4ria",
 				"theformalartist",
 				"scook",
 				"i_am_the_eggman"
