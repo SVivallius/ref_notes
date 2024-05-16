@@ -1,4 +1,6 @@
-#  WELCOME TO THE REFERENCE SHEET FOR HACKMUD
+#  WELCOME TO THE REFERENCE SHEET FOR HACKMUD<br />
+Hackmud is a text-based hacking sim game.<br />
+It's pretty cool. You should check it out.<br /><br />
 
 This script is very straight forward.<br />
 It simply returns a json that contains scraped information on the NPC's of the game Hackmud.<br />
