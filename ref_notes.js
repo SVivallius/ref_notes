@@ -148,6 +148,7 @@ function(context, args) // info: true
 				"scook",
 				"theformalartist",
 				"thegreat",
+				"there_is_enoether",
 				"wc_handy",
 				"x_mal",
 				"youngtwokay"
@@ -158,7 +159,8 @@ function(context, args) // info: true
 				"custbot",
 				"knowledgebase",
 				"kb_bot",
-				"turn_a_nat"
+				"turn_a_nat",
+				"dsearcher"
 			],
 			"Projects": [
 				"101010",
